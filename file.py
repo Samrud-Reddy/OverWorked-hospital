@@ -1,3 +1,5 @@
+# Samruds Code
+
 import person
 
 
@@ -24,7 +26,7 @@ class queue:
                 if x > 0:
                     line[i].draw()
                 # calulates the distance from other person
-                if (i != len(line) - 1):
+                if i != len(line) - 1:
                     x = x - (line[i].size + 5 + line[i + 1].size)
 
     # method to add a random person to the queue
